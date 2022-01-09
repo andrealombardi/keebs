@@ -26,8 +26,9 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 // #define MASTER_RIGHT
 // #define EE_HANDS
 
-#define PERMISSIVE_HOLD
-#define TAPPING_TERM 600
+//#define PERMISSIVE_HOLD
+#define IGNORE_MOD_TAP_INTERRUPT
+#define TAPPING_TERM 200
 
 #undef RGBLED_NUM
 #define RGBLIGHT_ANIMATIONS
